@@ -1,0 +1,12 @@
+× mongod.service - MongoDB Database Server
+     Loaded: loaded (/lib/systemd/system/mongod.service; disabled; preset: enabled)
+     Active: failed (Result: exit-code) since Wed 2023-11-22 00:26:28 UTC; 3min 44s ago
+   Duration: 93ms
+       Docs: https://docs.mongodb.org/manual
+   Main PID: 26961 (code=exited, status=14)
+        CPU: 92ms
+
+Nov 22 00:26:28 CS515-28 systemd[1]: Started mongod.service - MongoDB Database Server.
+Nov 22 00:26:28 CS515-28 mongod[26961]: {"t":{"$date":"2023-11-22T00:26:28.591Z"},"s":"I",  "c":"CONTROL",  "id":7484500, "ctx":"main","msg":"Environment variable MONGODB_CONFIG_OVERRIDE_NOFORK == 1, overriding \"processManagement.fork\" to false"}
+Nov 22 00:26:28 CS515-28 systemd[1]: mongod.service: Main process exited, code=exited, status=14/n/a
+Nov 22 00:26:28 CS515-28 systemd[1]: mongod.service: Failed with result 'exit-code'.
